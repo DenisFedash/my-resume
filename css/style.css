@@ -18,3 +18,92 @@ h4,
 p {
   margin: 0;
 }
+
+body {
+  width: 1024px;
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-header {
+  display: flex;
+  margin-bottom: 40px;
+  border-bottom: 2px solid black;
+}
+
+.mini-container {
+  border-bottom: 2px solid black;
+  margin-bottom: 35px;
+  padding-bottom: 15px;
+}
+
+.image-header {
+  width: 370px;
+  margin-right: 88px;
+}
+
+.header-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 75px;
+  line-height: 1.22;
+
+  padding-bottom: 19px;
+  text-transform: uppercase;
+}
+
+.header-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.21;
+
+  padding-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.phone {
+  padding-bottom: 10px;
+}
+
+.contact-list {
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.71;
+}
+
+.container-main {
+  display: flex;
+}
+
+.container-main_first {
+  width: 370px;
+  margin-right: 88px;
+}
+
+.soft::before {
+  content: "-";
+}
+
+.main_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.22;
+
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.main_text {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.71;
+
+  text-transform: uppercase;
+  text-align: justify;
+}
