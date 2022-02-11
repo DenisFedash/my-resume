@@ -29,6 +29,7 @@ body {
 .container-header {
   display: flex;
   margin-bottom: 40px;
+  padding-bottom: 5px;
   border-bottom: 2px solid black;
 }
 
@@ -39,7 +40,7 @@ body {
 }
 
 .image-header {
-  width: 370px;
+  max-width: 370px;
   margin-right: 88px;
 }
 
@@ -75,6 +76,15 @@ body {
   line-height: 1.71;
 }
 
+.contact-list_item:not(:last-child) {
+  padding-bottom: 5px;
+}
+
+.icon-list {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
 .container-main {
   display: flex;
 }
@@ -90,7 +100,6 @@ body {
 
 .main_title {
   font-family: Montserrat;
-  font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 1.22;
@@ -101,9 +110,26 @@ body {
 
 .main_text {
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.71;
 
-  text-transform: uppercase;
   text-align: justify;
+}
+
+.work-container {
+  padding-bottom: 25px;
+}
+
+.workt-title {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.22;
+}
+.work-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.71;
+  color: tomato;
 }
