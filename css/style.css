@@ -1,6 +1,6 @@
 img {
   display: block;
-  max-width: 100%;
+  max-width: 370px;
   height: auto;
 }
 .list {
@@ -40,7 +40,7 @@ body {
 }
 
 .image-header {
-  max-width: 370px;
+  /* min-width: 370px; */
   margin-right: 88px;
 }
 
