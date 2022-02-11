@@ -61,6 +61,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 1.21;
+  color: tomato;
 
   padding-bottom: 35px;
   text-transform: uppercase;
@@ -106,6 +107,10 @@ body {
 
   text-transform: uppercase;
   padding-bottom: 15px;
+}
+
+.prof-title {
+  font-size: 18px;
 }
 
 .main_text {
