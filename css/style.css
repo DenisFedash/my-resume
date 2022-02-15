@@ -1,3 +1,8 @@
+:root {
+  --color-text: tomato;
+  --border-color: black;
+}
+
 img {
   display: block;
   max-width: 370px;
@@ -30,17 +35,16 @@ body {
   display: flex;
   margin-bottom: 30px;
   padding-bottom: 5px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--border-color);
 }
 
 .mini-container {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--border-color);
   margin-bottom: 30px;
   padding-bottom: 15px;
 }
 
 .image-header {
-  /* min-width: 370px; */
   margin-right: 88px;
 }
 
@@ -61,7 +65,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 1.21;
-  color: tomato;
+  color: var(--color-text);
 
   padding-bottom: 35px;
   text-transform: uppercase;
@@ -97,6 +101,7 @@ body {
 
 .soft::before {
   content: "-";
+  margin-right: 5px;
 }
 
 .main_title {
@@ -136,5 +141,23 @@ body {
   font-size: 14px;
   font-weight: bold;
   line-height: 1.71;
-  color: tomato;
+  color: var(--color-text);
+}
+
+.name-project {
+  display: flex;
+}
+
+.project-link {
+  margin-right: 5px;
+}
+
+.education {
+  color: var(--color-text);
+  font-weight: bold;
+}
+
+.text-education {
+  color: var(--border-color);
+  font-weight: normal;
 }
