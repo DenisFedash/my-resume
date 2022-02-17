@@ -161,3 +161,7 @@ body {
   color: var(--border-color);
   font-weight: normal;
 }
+
+.project {
+  margin-right: 5px;
+}
