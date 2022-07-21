@@ -1,13 +1,15 @@
 :root {
-  --color-text: tomato;
+  --color-text: #041182;
   --border-color: black;
+  --main-text-color: white;
 }
 
 img {
   display: block;
-  max-width: 370px;
+  max-width: 350px;
   height: auto;
-}
+  }
+  
 .list {
   list-style: none;
   padding: 0;
@@ -20,12 +22,14 @@ h1,
 h2,
 h3,
 h4,
-p {
+p,
+a {
   margin: 0;
+  padding: 0;
 }
 
 body {
-  width: 1024px;
+  width: 1024px; 
   padding: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -44,23 +48,23 @@ body {
   padding-bottom: 15px;
 }
 
-.image-header {
-  margin-right: 88px;
+.image-header { 
+  margin-bottom: 15px;   
 }
 
 .header-title {
-  font-family: Montserrat;
+  font-family: Ibarra Real Nova;
   font-style: normal;
   font-weight: bold;
   font-size: 70px;
   line-height: 1.22;
 
-  padding-bottom: 19px;
+  margin-bottom: 19px;
   text-transform: uppercase;
 }
 
 .header-text {
-  font-family: Montserrat;
+  font-family: Ibarra Real Nova;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -76,8 +80,8 @@ body {
 }
 
 .contact-list {
-  font-family: Montserrat;
-  font-size: 18px;
+  font-family: Ibarra Real Nova;
+  font-size: 20px;
   line-height: 1.71;
 }
 
@@ -85,18 +89,22 @@ body {
   padding-bottom: 5px;
 }
 
-.icon-list {
-  vertical-align: middle;
-  margin-right: 5px;
-}
-
 .container-main {
   display: flex;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
 }
 
-.container-main_first {
-  width: 370px;
-  margin-right: 88px;
+.container-main_first {  
+  margin-right: 45px;
+  background-color: #e8e8e8;  
+}
+
+.bar{
+  padding: 15px 25px 0 25px;
+}
+
+.container-main_second{
+  padding: 30px 25px 0 0;
 }
 
 .soft::before {
@@ -105,23 +113,23 @@ body {
 }
 
 .main_title {
-  font-family: Montserrat;
+  font-family: Ibarra Real Nova;
   font-weight: bold;
   font-size: 22px;
   line-height: 1.22;
 
   text-transform: uppercase;
-  padding-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .prof-title {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .main_text {
-  font-family: Montserrat;
-  font-size: 15px;
-  line-height: 1.71;
+  font-family: Ibarra Real Nova;
+  font-size: 22px;
+  line-height: 1.61;
 
   text-align: justify;
 }
@@ -131,14 +139,14 @@ body {
 }
 
 .workt-title {
-  font-family: Montserrat;
+  font-family: Ibarra Real Nova;
   font-weight: bold;
   font-size: 18px;
   line-height: 1.22;
 }
 .work-text {
-  font-family: Montserrat;
-  font-size: 14px;
+  font-family: Ibarra Real Nova;
+  font-size: 17px;
   font-weight: bold;
   line-height: 1.71;
   color: var(--color-text);
@@ -146,6 +154,7 @@ body {
 
 .name-project {
   display: flex;
+  flex-wrap: no-wrap;
 }
 
 .project-link {
