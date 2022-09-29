@@ -82,7 +82,7 @@ body {
 .contact-list {
   font-family: Ibarra Real Nova;
   font-size: 20px;
-  line-height: 1.71;
+  line-height: 1.2;
 }
 
 .contact-list_item:not(:last-child) {
@@ -107,11 +107,6 @@ body {
   padding: 30px 25px 0 0;
 }
 
-.soft::before {
-  content: "-";
-  margin-right: 5px;
-}
-
 .main_title {
   font-family: Ibarra Real Nova;
   font-weight: bold;
@@ -129,7 +124,7 @@ body {
 .main_text {
   font-family: Ibarra Real Nova;
   font-size: 22px;
-  line-height: 1.61;
+  line-height: 1.22;
 
   text-align: justify;
 }
@@ -164,6 +159,9 @@ body {
 .education {
   color: var(--color-text);
   font-weight: bold;
+  font-family: Ibarra Real Nova;
+    font-size: 17px;
+    line-height: 1.1;
 }
 
 .text-education {
@@ -173,4 +171,21 @@ body {
 
 .project {
   margin-right: 5px;
+}
+
+.text-expr{  
+  font-family: Ibarra Real Nova;
+    font-size: 17px;    
+    line-height: 1.1;  
+    margin-left: 30px;
+}
+
+.main_text-item{
+  list-style: inside;  
+}
+
+.text-work{
+  font-family: Ibarra Real Nova;
+    font-size: 17px;
+    line-height: 1.1;
 }
