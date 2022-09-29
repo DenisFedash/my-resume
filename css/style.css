@@ -156,14 +156,6 @@ body {
   margin-right: 5px;
 }
 
-.education {
-  color: var(--color-text);
-  font-weight: bold;
-  font-family: Ibarra Real Nova;
-    font-size: 17px;
-    line-height: 1.1;
-}
-
 .text-education {
   color: var(--border-color);
   font-weight: normal;
@@ -182,6 +174,15 @@ body {
 
 .main_text-item{
   list-style: inside;  
+}
+
+.education {
+  color: var(--color-text);
+  font-weight: bold;
+  font-family: Ibarra Real Nova;
+  font-size: 17px;
+  line-height: 1.1;
+  list-style: none;
 }
 
 .text-work{
