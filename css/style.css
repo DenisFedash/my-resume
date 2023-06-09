@@ -30,9 +30,7 @@ a {
 
 body {
   width: 1024px; 
-  padding: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 .container-header {
@@ -43,9 +41,12 @@ body {
 }
 
 .mini-container {
-  border-bottom: 2px solid var(--border-color);
-  margin-bottom: 30px;
+  border-bottom: 2px solid var(--border-color);  
   padding-bottom: 15px;
+}
+
+.mini-container:not(:last-child){
+  margin-bottom: 30px;
 }
 
 .image-header { 
@@ -104,7 +105,7 @@ body {
 }
 
 .container-main_second{
-  padding: 30px 25px 0 0;
+  padding: 0px 25px 0 0;
 }
 
 .main_title {
@@ -155,8 +156,6 @@ body {
 .project-link {
   margin-right: 5px;
 }
-
-
 
 .text-education {
   color: var(--border-color);
