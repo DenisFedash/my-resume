@@ -53,6 +53,16 @@ body {
   margin-bottom: 15px;   
 }
 
+.cv-header{
+  font-family: Ibarra Real Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 1.22;
+
+    margin-bottom: 19px;
+}
+
 .header-title {
   font-family: Ibarra Real Nova;
   font-style: normal;
@@ -96,12 +106,13 @@ body {
 }
 
 .container-main_first {  
+  min-width: 350px;
   margin-right: 45px;
   background-color: #e8e8e8;  
 }
 
 .bar{
-  padding: 15px 25px 0 25px;
+  padding: 0px 25px 0 25px; /*прибирати верхній падінг там де немає фотки*/
 }
 
 .container-main_second{
