@@ -94,7 +94,7 @@ body {
 
 .contact-list {
   font-family: Ibarra Real Nova;
-  font-size: 30px;
+  font-size: 22px;
   line-height: 1.2;
 }
 
@@ -109,13 +109,13 @@ body {
 
 .container-main_first {  
   min-width: 400px;
-  height: auto;
+  padding-bottom: 600px;
   margin-right: 45px;
   background-color: #e8e8e8;  
 }
 
 .bar{
-  padding: 0px 25px 0 25px; /*прибирати верхній падінг там де немає фотки*/
+  padding: 0px 25px 710px 25px; /*прибирати верхній падінг там де немає фотки*/
 }
 
 .container-main_second{
@@ -209,7 +209,7 @@ body {
   color: var(--color-text);
   font-weight: bold;
   font-family: Ibarra Real Nova;
-  font-size: 30px;
+  font-size: 27px;
   line-height: 1.1;
   list-style: none;
 }
