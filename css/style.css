@@ -6,7 +6,7 @@
 
 img {
   display: block;
-  max-width: 350px;
+  max-width: 400px;
   height: auto;
   }
   
@@ -42,7 +42,7 @@ body {
 
 .mini-container {
   border-bottom: 2px solid var(--border-color);  
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 .mini-container:not(:last-child){
@@ -78,7 +78,7 @@ body {
   font-family: Ibarra Real Nova;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 34px;
   line-height: 1.21;
   color: var(--color-text);
 
@@ -92,12 +92,12 @@ body {
 
 .contact-list {
   font-family: Ibarra Real Nova;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.2;
 }
 
 .contact-list_item:not(:last-child) {
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 
 .container-main {
@@ -106,7 +106,7 @@ body {
 }
 
 .container-main_first {  
-  min-width: 350px;
+  min-width: 400px;
   margin-right: 45px;
   background-color: #e8e8e8;  
 }
@@ -122,7 +122,7 @@ body {
 .main_title {
   font-family: Ibarra Real Nova;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 32px;
   line-height: 1.22;
 
   text-transform: uppercase;
@@ -130,12 +130,12 @@ body {
 }
 
 .prof-title {
-  font-size: 22px;
+  font-size: 32px;
 }
 
 .main_text {
   font-family: Ibarra Real Nova;
-  font-size: 22px;
+  font-size: 29px;
   line-height: 1.22;
 
   text-align: justify;
@@ -148,12 +148,12 @@ body {
 .workt-title {
   font-family: Ibarra Real Nova;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 1.22;
 }
 .work-text {
   font-family: Ibarra Real Nova;
-  font-size: 17px;
+  font-size: 27px;
   font-weight: bold;
   line-height: 1.71;
   color: var(--color-text);
@@ -166,6 +166,7 @@ body {
 
 .project-link {
   margin-right: 5px;
+
 }
 
 .text-education {
@@ -175,29 +176,37 @@ body {
 
 .project {
   margin-right: 5px;
+  font-weight: bold;
+  font-size: 32px;
+    line-height: 1.1;
+    color: var(--color-text);
+
 }
 
 .text-expr{  
   font-family: Ibarra Real Nova;
-    font-size: 17px;    
+    font-size: 27px;    
     line-height: 1.1;  
     margin-left: 30px;
+    
 }
 
 .main_text-item{
   list-style: inside;  
+  font-size: 27px;
+    line-height: 1.1;
 }
 
 .text-work{
   font-family: Ibarra Real Nova;
-    font-size: 17px;
+    font-size: 27px;
     line-height: 1.1;
 }
 .education {
   color: var(--color-text);
   font-weight: bold;
   font-family: Ibarra Real Nova;
-  font-size: 17px;
+  font-size: 30px;
   line-height: 1.1;
   list-style: none;
 }
