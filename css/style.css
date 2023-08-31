@@ -29,8 +29,10 @@ a {
 }
 
 body {
-  width: 1024px; 
+  /* width: 1024px;  */
   margin: auto;
+  height: auto;
+  
 }
 
 .container-header {
@@ -107,6 +109,7 @@ body {
 
 .container-main_first {  
   min-width: 400px;
+  height: auto;
   margin-right: 45px;
   background-color: #e8e8e8;  
 }
