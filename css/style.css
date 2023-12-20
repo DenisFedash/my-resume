@@ -145,7 +145,7 @@ body {
 }
 
 .work-container {
-  padding-bottom: 15px;
+  margin-bottom: 45px;
 }
 
 .workt-title {
@@ -212,4 +212,18 @@ body {
   font-size: 27px;
   line-height: 1.1;
   list-style: none;
+}
+
+.text-tech{
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.link-container{
+  display: flex;
+  align-items: center;
+}
+
+.work-link{
+  margin-left: 15px;
 }
